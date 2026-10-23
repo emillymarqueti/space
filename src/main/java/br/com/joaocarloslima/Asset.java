@@ -3,11 +3,11 @@ package br.com.joaocarloslima;
 import javafx.scene.image.ImageView;
 
 public abstract class Asset {
-    protected int x;
-    protected int y;
-    protected ImageView imagem;
-    protected int velocidade;
-    protected Direcao direcao;
+    int x;
+    int y;
+    ImageView imagem;
+    int velocidade;
+    Direcao direcao;
 
     public Asset(int x, int y, int velocidade, Direcao direcao) {
         this.x = x;

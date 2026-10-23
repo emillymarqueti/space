@@ -11,7 +11,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 /**
- * JavaFX App
+ * Aplicativo JavaFX
  */
 public class App extends Application {
 

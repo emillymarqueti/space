@@ -14,7 +14,7 @@ public class Meteoro extends Asset {
         this.tamanho = random.nextInt(8) + 1;
         this.poder = this.tamanho;
 
-        String path = "images/meteoro/meteoro" + tamanho + ".png";
+        String path = "/br/com/joaocarloslima/images/meteoro/meteoro" + tamanho + ".png";
         this.imagem = new ImageView(App.class.getResource(path).toString());
     }
 

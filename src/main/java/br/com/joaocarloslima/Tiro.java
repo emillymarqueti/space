@@ -9,7 +9,7 @@ public class Tiro extends Asset {
         super(x, y, velocidade, direcao);
         this.poder = poder;
 
-        String path = "images/laser/laser" + poder + ".png";
+        String path = "/br/com/joaocarloslima/images/laser/laser" + poder + ".png";
         this.imagem = new ImageView(App.class.getResource(path).toString());
     }
 
